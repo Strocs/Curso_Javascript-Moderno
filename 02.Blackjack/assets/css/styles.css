@@ -1,0 +1,36 @@
+html, body { /* esto significa que aplicaré esta config al html y al body */
+    margin: 15px;
+    background-color: #F0C987;
+}
+
+/* Le asigné un nombre a la clase en el html y lo edité en el css */
+.titulo {
+    text-align: center;
+    background-color: #8B1E3F;
+    color: #F0C987;
+    font-size: 16px;
+    letter-spacing: 4px;
+    padding: 10px 10px 1px;
+    border-radius: 40px;
+}   
+
+.participantes {    
+    font-size: 25px;
+    color: #3C153B;
+}
+
+.carta {
+    position: relative;
+    width: 140px;
+    left: 100px;
+    margin-left: -75px;
+    
+}
+
+#computadora-cartas, #jugador-cartas {
+    height: 240px;
+}
+
+.animate__animated.animate__slideInLeft {
+    --animate-duration: 0.5s;
+}

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>El Malvajack Definitivo!</title>
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <!-- De esta manera agrego una libreria externa, en el caso de los estilos va en esta sección del código. -->
+    <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body>
+
+    <header class="titulo">
+        <h3>Un Malvajack</h2>
+        <p>Intenta que tus cartas sumen 21!</p>
+    </header>
+
+    <div class="row mt-3">
+        <div id="divBotones" class="col text-center">
+            <button id="newBtn" class="btn btn-danger">Nuevo Juego</button>
+            <button id="getBtn" disabled='disabled' class="btn btn-primary">Pedir Carta</button>
+            <button id="stopBtn" disabled='disabled' class="btn btn-primary">Detener</button>
+        </div>
+    </div>
+
+    <div class="row container">
+        <div class="col">
+            <h1 class="participantes">Jugador - <small>0</small></h1>
+            <div id="jugador-cartas" class='divCards'>
+                <!-- <img class="carta" src="assets/cartas/10H.png"> -->
+
+            </div>
+        </div>
+    </div>
+
+    <div class="row container mt-2">
+        <div class="col">
+            <h1 class="participantes">Computadora - <small>0</small></h1>
+            <div id="computadora-cartas" class='divCards'>
+                <!-- <img class="carta" src="assets/cartas/3H.png"> -->
+
+            </div>
+        </div>
+    </div>
+    <!-- Importar librerias antes del js porque ahi es donde la utilizaremos -->
+    <script src="assets/js/underscore.js"></script>
+    <script src="assets/js/juego-min.js"></script>
+
+    <script>
+        moduleBJ.newGame(); 
+    </script>
+
+</body>
+</html>
+
