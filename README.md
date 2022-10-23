@@ -1,24 +1,16 @@
-<div style='text-align: center;'>
-  <h2 style='font-size: 36px; font-weight: bold; margin-bottom: -4px;'>Javascript Moderno</h2>
-  <p>
-    Repositorio del proceso y apuntes del curso de <a src='https://fernando-herrera.com/'>Fernando Herrara</a>
-  </p>
-</div>
-
-&nbsp;
-
----
+# Javascript Moderno
+Repositorio del proceso y apuntes del curso de [Fernando Herrara](https://fernando-herrera.com/).
 
 &nbsp;
 ## Índice
-- [Fundamentos]()
-  - [Primitivos, arreglos, objetos y funciones básicas]()
-  - [Ciclos y estructuras de control]()
-  - [Clases en JS y ESNext private properties]()
-- [Laboratorio 1: Blackjack]()
-- [Laboratorio 2: Todo App]()
-- [Callbacks y Promesas]()
-- [Peticiones HTTP y Subida de Archivos]()
+- [Fundamentos](./01.Fundamentos/)
+  - [Primitivos, arreglos, objetos y funciones básicas](./01.Fundamentos/assets/js/base/)
+  - [Ciclos y estructuras de control](./01.Fundamentos/assets/js/ciclos/)
+  - [Clases en JS y ESNext private properties](./01.Fundamentos/assets/js/classes/)
+- [Laboratorio 1: Blackjack](./02.Blackjack/)
+- [Laboratorio 2: Todo App](./04.ToDo/)
+- [Callbacks y Promesas](./05.Promesas%20y%20Callbacks/)
+- [Peticiones HTTP y Subida de Archivos](./06.HTTP/)
 
 &nbsp;
 
@@ -28,8 +20,4 @@
 ## Certificado finalización del Curso
 ![Certificado del Curso](/UC-0c053509-07ca-4617-a130-1fd5b8ce123e.jpg)
 &nbsp;
-
----
-
-
 
